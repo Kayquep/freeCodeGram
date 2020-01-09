@@ -28,6 +28,14 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @return void
      */
+
+    public const PROFILE = '/profile/';
+
+    /**
+     * Define your route model bindings, pattern filters, etc.
+     *
+     * @return void
+     */
     public function boot()
     {
         //
